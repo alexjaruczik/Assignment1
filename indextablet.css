@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body {
+background-color: rgb(141, 141, 141);
+font-family: Verdana, Geneva, Arial, sans-serif;
+padding:0px;
+margin:0px;
+}
+#banner h1 {
+color:yellow
+}
