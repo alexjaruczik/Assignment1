@@ -1,11 +1,11 @@
 @charset "UTF-8";
 body {
-background-color: white;
+background-color: blue;
 font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
 height: 100%;
-background: #364A32;
+background: Yellow;
 background-image: -moz-linear-gradient(top, #47A135 0%, #364A32 100%);
 background-image: -webkit-linear-gradient(top, #47A135 0%, #364A32 100%);
 background-image: -o-linear-gradient(top, #47A135 0%, #364A32 100%);
