@@ -1,7 +1,14 @@
 @charset "UTF-8";
+.roboto-banner {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 body {
 background-color: blue;
-font-family: Verdana, Geneva, Arial, sans-serif;
+font-family: "Roboto", Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
 height: 100%;
@@ -12,7 +19,7 @@ background-image: -o-linear-gradient(top, #47A135 0%, #364A32 100%);
 background-image: linear-gradient(to bottom, #47A135 0%, #364A32 100%);
 }
 #banner h1 {
-    color:green;
+    color:#364A32;
     margin:auto;
     text-align: center;
     width: 90%;
@@ -22,6 +29,13 @@ background-image: linear-gradient(to bottom, #47A135 0%, #364A32 100%);
     text-align: center;
     width: 90%;
     padding: 3%;
+}
+a {
+    color: #2C332B;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s;
 }
 a:link {
     text-decoration: none;
