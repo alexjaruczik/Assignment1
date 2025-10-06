@@ -1,10 +1,34 @@
 @charset "UTF-8";
 body {
-background-color: rgb(141, 141, 141);
+background-color: white;
 font-family: Verdana, Geneva, Arial, sans-serif;
 padding:0px;
 margin:0px;
+height: 100%;
+background: #364A32;
+background-image: -moz-linear-gradient(top, #47A135 0%, #364A32 100%);
+background-image: -webkit-linear-gradient(top, #47A135 0%, #364A32 100%);
+background-image: -o-linear-gradient(top, #47A135 0%, #364A32 100%);
+background-image: linear-gradient(to bottom, #47A135 0%, #364A32 100%);
 }
 #banner h1 {
-color:green
+    color:green;
+    margin:auto;
+    text-align: center;
+    width: 90%;
+}
+#top-row {
+    margin:auto;
+    text-align: center;
+    width: 90%;
+    padding: 3%;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color:lightgray
+}
+html {
+    height: 100%;
 }
