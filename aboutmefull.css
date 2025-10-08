@@ -60,6 +60,8 @@ html {
     margin: auto;
     bottom: 0;
 }
-#footer a,p{
+#footer p{
     color: #61C451;
+    bottom: 0;
+    position: fixed;
 }

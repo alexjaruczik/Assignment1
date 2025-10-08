@@ -65,6 +65,8 @@ html {
     bottom: 0;
     width:480px;
 }
-#footer a,p{
+#footer p{
     color: #61C451;
+    bottom: 0;
+    position: fixed;
 }

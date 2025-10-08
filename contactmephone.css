@@ -50,6 +50,8 @@ html {
     text-align: center;
     color:#364A32;
 }
-#footer a,p{
+#footer p{
     color: #61C451;
+    bottom: 0;
+    position: fixed;
 }

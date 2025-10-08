@@ -55,6 +55,8 @@ background-color: white;
 .box h2,h4 {
     margin: 15px;
 }
-#footer a,p{
+#footer p{
     color: #61C451;
+    bottom: 0;
+    position: fixed;
 }
