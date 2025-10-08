@@ -35,8 +35,15 @@ a:link {
     text-decoration: none;
 }
 a:hover {
-    color:gray
+    color:white
 }
 html {
     height: 100%;
+}
+#form {
+    text-align: center;
+    color:#364A32;
+}
+#footer a,p{
+    color: #61C451;
 }

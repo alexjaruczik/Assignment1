@@ -44,7 +44,7 @@ a:link {
     text-decoration: none;
 }
 a:hover {
-    color:lightgray
+    color:white
 }
 html {
     height: 100%;
@@ -63,4 +63,7 @@ html {
 }
 #vid video{
     width:100%
+}
+#footer a,p{
+    color: #61C451;
 }
