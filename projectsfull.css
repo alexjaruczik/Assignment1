@@ -40,17 +40,19 @@ html {
     height: 100%;
 }
 .box {
-    background-color: grey;
+    background-color: #2C332B;
     margin: 1%;
     width: 23%;
     float:left;
-    color: #364A32;-webkit-transition: background-color 0.2s;
+    -webkit-transition: background-color 0.2s;
     -moz-transition: background-color 0.2s;
     -o-transition: background-color 0.2s;
     transition: background-color 0.2s;
+    color:#61C451;
 }
 .box:hover {
 background-color: white;
+color:#364A32;
 }
 .box h2,h4 {
     margin:15px;
