@@ -6,6 +6,12 @@
   font-variation-settings:
     "wdth" 100;
 }
+#wrapper {
+background-image: -moz-linear-gradient(top, #47A135 0%, #364A32 100%);
+background-image: -webkit-linear-gradient(top, #47A135 0%, #364A32 100%);
+background-image: -o-linear-gradient(top, #47A135 0%, #364A32 100%);
+background-image: linear-gradient(to bottom, #47A135 0%, #364A32 100%);
+}
 body {
 background-color: white;
 font-family: "Roboto", Geneva, Arial, sans-serif;
@@ -13,10 +19,9 @@ padding:0px;
 margin:0px;
 height: 90%;
 background: #364A32;
-background-image: -moz-linear-gradient(top, #47A135 0%, #364A32 100%);
-background-image: -webkit-linear-gradient(top, #47A135 0%, #364A32 100%);
-background-image: -o-linear-gradient(top, #47A135 0%, #364A32 100%);
-background-image: linear-gradient(to bottom, #47A135 0%, #364A32 100%);
+}
+#top-row{
+    padding: 5px;
 }
 #banner h1 {
     color:#364A32;
@@ -39,4 +44,19 @@ a:hover {
 }
 html {
     height: 100%;
+}
+#desc img{
+    float: left;
+    margin-left:15px;
+    margin-right:15px;
+}
+#desc h2{
+    color: #61C451;
+    text-shadow:1px 1px black;
+    margin:15px;
+}
+#vid video{
+    display: block;
+    margin: auto;
+    bottom: 0;
 }
